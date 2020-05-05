@@ -1259,7 +1259,3 @@ echo '<script>
 </body>
 
 </html>
-<!--
-Sourcse:
-http://markcell.github.io/jquery-tabledit/
--->
