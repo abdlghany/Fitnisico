@@ -21,7 +21,7 @@ if ($result->num_rows > 0) {
 else {
  if($pass == $pass2 ){
   $sql = "INSERT INTO accounts VALUES (NULL, '$name', '$email', '$pass', '$mobile','no');";
-//"no" is for the account admin type, since an admin account shouldn't be made unless you're logged into ad admin account, it's by default no.
+//"no" is for the account admin type, since an admin account shouldn't be made unless you're logged into ad admin account, it's no by default.
 if (mysqli_query($conn, $sql))
 {
  $_SESSION['registermessage']= true;
